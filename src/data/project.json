@@ -24,7 +24,7 @@
     "title": "Anime Website",
     "image": "/images/anime.png",
     "description": "Discover and stream your favorite anime series with stunning visuals, character info, and latest episode updates—all in one place.",
-    "link": "https://pranay8446.github.io/web2/",
+    "link": "https://pranaychandurkar.github.io/web2/",
     "techStack": ["React", "Anime API", "Tailwind CSS"]
   }
 ]
