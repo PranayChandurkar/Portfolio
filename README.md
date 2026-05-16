@@ -1,8 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio
 
-## Getting Started
+**[🌍 Live Preview: pranaychandurkar-portfolio.vercel.app](https://pranaychandurkar-portfolio.vercel.app/)**
 
-First, run the development server:
+A modern, interactive, and fully responsive personal portfolio website built to showcase my projects, skills, and professional experience.
+
+## 🚀 Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Library:** [React](https://react.dev/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/) & [Remix Icon](https://remixicon.com/)
+- **Email API:** [Resend](https://resend.com/)
+
+## 🌟 Features
+
+- **Hero Section:** A visually engaging introduction.
+- **About Section:** Information regarding my background and core technical skills.
+- **Projects Showcase:** Dedicated section displaying recent work, complete with dynamic data loaded from `src/data`.
+- **Get in Touch / Contact:** Functional contact form integrated with Resend.
+- **Smooth Animations:** Scroll and entrance animations powered by Framer Motion.
+- **Responsive Design:** Optimized to look great on desktop, tablet, and mobile devices.
+
+## 🛠️ Getting Started
+
+First, clone the repository and install the necessary dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +48,19 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the portfolio in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📂 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/app` - Contains the Next.js App Router pages (e.g., `page.tsx`, `layout.tsx`) and API routes.
+- `src/components` - Reusable UI components including `Navbar`, `HeroSection`, `AboutSection`, `ProjectSection`, and `GetInTouch`.
+- `src/data` - JSON files (`project.json`, `extraProject.json`) managing the portfolio's content.
+- `public` - Static assets such as images or favicons.
 
-## Learn More
+## 🤝 Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions, issues, and feature requests are always welcome! Feel free to check the issues page.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source and available under the [MIT License](LICENSE).
