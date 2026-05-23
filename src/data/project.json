@@ -3,7 +3,7 @@
     "title": "Welding Service Management Website",
     "image": "/images/welding.png",
     "description": "A full MERN stack welding service platform featuring service listings, real-time updates, admin management, and a clean Tailwind-powered UI. Includes an admin dashboard for editing services, managing projects, and updating content dynamically.",
-    "link": "https://newpro84.netlify.app/",
+    "link": "https://sarswati-welding-works.netlify.app/",
     "techStack": ["MongoDB", "Express", "React", "Node.js", "Tailwind CSS", "Admin Panel"]
   },
   {
