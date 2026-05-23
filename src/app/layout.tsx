@@ -4,7 +4,7 @@ import "./globals.css";
 import 'remixicon/fonts/remixicon.css';
 
 export const metadata: Metadata = {
-  title: "Pranay Chandurkar - Portfolio",
+  title: "Pranay Chandurkar",
   description: "Portfolio",
 };
 
